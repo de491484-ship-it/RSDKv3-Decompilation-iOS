@@ -24,7 +24,7 @@ byte playerCount = 0;
 #include <filesystem>
 #include <algorithm>
 
-int OpenModMenu()
+int OpenModMenu(1)
 {
     // Engine.gameMode      = ENGINE_INITMODMENU;
     // Engine.modMenuCalled = true;
