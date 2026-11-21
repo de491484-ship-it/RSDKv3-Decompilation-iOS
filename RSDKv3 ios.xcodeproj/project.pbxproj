@@ -26,14 +26,14 @@
 		C959D5EA25A0415D0001CA1C /* Debug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C959D5D425A0415C0001CA1C /* Debug.cpp */; };
 		C959D5EB25A0415D0001CA1C /* Scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C959D5D525A0415C0001CA1C /* Scene.cpp */; };
 		C959D5EC25A0415D0001CA1C /* RetroEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C959D5D625A0415C0001CA1C /* RetroEngine.cpp */; };
-		C959D5ED25A0415D0001CA1C /* Collision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C959D5D725A0415C0001CA1C /* Collision.cpp */; };
+		C959D5ED25A0415D0001CA1C /* Collision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C959D5D725A0415D0001CA1C /* Collision.cpp */; };
 		C959D5EE25A0415D0001CA1C /* Palette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C959D5D825A0415D0001CA1C /* Palette.cpp */; };
 		C959D5EF25A0415D0001CA1C /* Video.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C959D5D925A0415D0001CA1C /* Video.cpp */; };
 		C959D5F025A0415D0001CA1C /* Drawing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C959D5DA25A0415D0001CA1C /* Drawing.cpp */; };
 		C959D5F125A0415D0001CA1C /* Input.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C959D5DB25A0415D0001CA1C /* Input.cpp */; };
 		C959D5F225A0415D0001CA1C /* Scene3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C959D5DC25A0415D0001CA1C /* Scene3D.cpp */; };
 		C959D5F325A0415D0001CA1C /* String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C959D5DD25A0415D0001CA1C /* String.cpp */; };
-		C959D5F425A0415D0001CA1C /* Animation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C959D5DE25A0415D0001CA1C /* Animation.cpp */; };
+		C959D5F425A0415D0001CA1C /* Animation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C959D5DE25A0415C0001CA1C /* Animation.cpp */; };
 		C959D5F525A0415D0001CA1C /* Script.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C959D5DF25A0415D0001CA1C /* Script.cpp */; };
 		C959D5F625A0415D0001CA1C /* Userdata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C959D5E025A0415D0001CA1C /* Userdata.cpp */; };
 		C959D5F725A0415D0001CA1C /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C959D5E125A0415D0001CA1C /* Player.cpp */; };
@@ -44,6 +44,7 @@
 		C959D61E25A2DFC60001CA1C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C959D61D25A2DFC60001CA1C /* Default.png */; };
 		C959D62A25A2E5250001CA1C /* theoraplay.c in Sources */ = {isa = PBXBuildFile; fileRef = C959D62925A2E5250001CA1C /* theoraplay.c */; };
 		C959D67E25A303DB0001CA1C /* libSDLMain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C959D67D25A303C80001CA1C /* libSDLMain.a */; };
+		F00100000000000000000001 /* ModAPI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F00200000000000000000001 /* ModAPI.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -87,10 +88,10 @@
 		C959D5DA25A0415D0001CA1C /* Drawing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Drawing.cpp; path = SonicCDDecomp/Drawing.cpp; sourceTree = SOURCE_ROOT; };
 		C959D5DB25A0415D0001CA1C /* Input.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Input.cpp; path = SonicCDDecomp/Input.cpp; sourceTree = SOURCE_ROOT; };
 		C959D5DC25A0415D0001CA1C /* Scene3D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Scene3D.cpp; path = SonicCDDecomp/Scene3D.cpp; sourceTree = SOURCE_ROOT; };
-		C959D5DD25A0415D0001CA1C /* String.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = String.cpp; path = SonicCDDecomp/String.cpp; sourceTree = SOURCE_ROOT; };
-		C959D5DE25A0415D0001CA1C /* Animation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Animation.cpp; path = SonicCDDecomp/Animation.cpp; sourceTree = SOURCE_ROOT; };
-		C959D5DF25A0415D0001CA1C /* Script.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Script.cpp; path = SonicCDDecomp/Script.cpp; sourceTree = SOURCE_ROOT; };
-		C959D5E025A0415D0001CA1C /* Userdata.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Userdata.cpp; path = SonicCDDecomp/Userdata.cpp; sourceTree = SOURCE_ROOT; };
+		C959D5DD25A0415C0001CA1C /* String.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = String.cpp; path = SonicCDDecomp/String.cpp; sourceTree = SOURCE_ROOT; };
+		C959D5DE25A0415C0001CA1C /* Animation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Animation.cpp; path = SonicCDDecomp/Animation.cpp; sourceTree = SOURCE_ROOT; };
+		C959D5DF25A0415C0001CA1C /* Script.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Script.cpp; path = SonicCDDecomp/Script.cpp; sourceTree = SOURCE_ROOT; };
+		C959D5E025A0415C0001CA1C /* Userdata.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Userdata.cpp; path = SonicCDDecomp/Userdata.cpp; sourceTree = SOURCE_ROOT; };
 		C959D5E125A0415D0001CA1C /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Player.cpp; path = SonicCDDecomp/Player.cpp; sourceTree = SOURCE_ROOT; };
 		C959D5E225A0415D0001CA1C /* Audio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Audio.cpp; path = SonicCDDecomp/Audio.cpp; sourceTree = SOURCE_ROOT; };
 		C959D5E325A0415D0001CA1C /* Reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Reader.cpp; path = SonicCDDecomp/Reader.cpp; sourceTree = SOURCE_ROOT; };
@@ -117,11 +118,12 @@
 		C959D60E25A041750001CA1C /* Object.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Object.hpp; path = SonicCDDecomp/Object.hpp; sourceTree = SOURCE_ROOT; };
 		C959D60F25A041750001CA1C /* Video.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Video.hpp; path = SonicCDDecomp/Video.hpp; sourceTree = SOURCE_ROOT; };
 		C959D61025A041750001CA1C /* Debug.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Debug.hpp; path = SonicCDDecomp/Debug.hpp; sourceTree = SOURCE_ROOT; };
-		C959D61D25A2DFC60001CA1C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = dependencies/ios/Default.png; sourceTree = "<group>"; };
+		C959D61D25A2DFC60001CA1C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = dependencies/ios/Default.png; sourceTree = SOURCE_ROOT; };
 		C959D62625A2E5130001CA1C /* theoraplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = theoraplay.h; path = dependencies/all/theoraplay/theoraplay.h; sourceTree = SOURCE_ROOT; };
 		C959D62725A2E5130001CA1C /* theoraplay_cvtrgb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = theoraplay_cvtrgb.h; path = dependencies/all/theoraplay/theoraplay_cvtrgb.h; sourceTree = SOURCE_ROOT; };
 		C959D62925A2E5250001CA1C /* theoraplay.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = theoraplay.c; path = dependencies/all/theoraplay/theoraplay.c; sourceTree = SOURCE_ROOT; };
 		C959D67D25A303C80001CA1C /* libSDLMain.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDLMain.a; path = dependencies/ios/libSDLMain.a; sourceTree = "<group>"; };
+		F00200000000000000000001 /* ModAPI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SonicCDDecomp/ModAPI.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,19 +198,19 @@
 				C959D5DB25A0415D0001CA1C /* Input.cpp */,
 				C959D5D225A0415C0001CA1C /* main.cpp */,
 				C959D5D325A0415C0001CA1C /* Math.cpp */,
+				F00200000000000000000001 /* ModAPI.cpp */,
 				C959D5D125A0415C0001CA1C /* Object.cpp */,
 				C959D5D825A0415D0001CA1C /* Palette.cpp */,
 				C959D5E125A0415D0001CA1C /* Player.cpp */,
-				C959D5E325A0415D0001CA1C /* Reader.cpp */,
+				C959D5E325A0415C0001CA1C /* Reader.cpp */,
 				C959D5D625A0415C0001CA1C /* RetroEngine.cpp */,
 				C959D5D525A0415C0001CA1C /* Scene.cpp */,
 				C959D5DC25A0415D0001CA1C /* Scene3D.cpp */,
 				C959D5DF25A0415D0001CA1C /* Script.cpp */,
 				C959D5E425A0415D0001CA1C /* Sprite.cpp */,
-				C959D5DD25A0415D0001CA1C /* String.cpp */,
+				C959D5DD25A0415C0001CA1C /* String.cpp */,
 				C959D5E525A0415D0001CA1C /* Text.cpp */,
 				C959D5E025A0415D0001CA1C /* Userdata.cpp */,
-				C959D5D925A0415D0001CA1C /* Video.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -380,6 +382,7 @@
 				C959D5E925A0415D0001CA1C /* Math.cpp in Sources */,
 				C959D5F925A0415D0001CA1C /* Reader.cpp in Sources */,
 				C959D5F425A0415D0001CA1C /* Animation.cpp in Sources */,
+				F00100000000000000000001 /* ModAPI.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,7 +406,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -445,7 +448,7 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "";
@@ -463,8 +466,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ANALYZER_NUMBER_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -500,7 +503,7 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "";
@@ -523,6 +526,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/dependencies/ios",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"RETRO_USE_MOD_LOADER=1",
+					"$(inherited)",
 				);
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "$(SRCROOT)/dependencies/ios/Info.plist";
@@ -555,6 +562,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/dependencies/ios",
 				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"RETRO_USE_MOD_LOADER=1",
+					"$(inherited)",
+				);
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "$(SRCROOT)/dependencies/ios/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -577,7 +588,6 @@
 		};
 /* End XCBuildConfiguration section */
 
-/* Begin XCConfigurationList section */
 		C959D5A325A0409F0001CA1C /* Build configuration list for PBXProject "RSDKv3 ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -587,7 +597,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C959D5C425A040A00001CA1C /* Build configuration list for PBXNativeTarget "RSDKv3" */ = {
+		C959D5C425A0409F0001CA1C /* Build configuration list for PBXNativeTarget "RSDKv3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C959D5C525A040A00001CA1C /* Debug */,
@@ -596,7 +606,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-/* End XCConfigurationList section */
 	};
 	rootObject = C959D5A025A0409F0001CA1C /* Project object */;
 }
